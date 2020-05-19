@@ -1,7 +1,7 @@
 # spotify-top50-popular-song-analysis
 
 This is the final project for stats101a spring20 from UCLA taught by professor Robert Gould and TA Xinzhou Ge
-
+The dataset can be found in data/top50_with_lyrics_bio.csv
 
 
 Add table of content here
@@ -38,7 +38,7 @@ To use this code: you need to replace the API tokens and other relevant info in 
     
 
 ### Data dictionary / codebook
-####CSV files: 
+#### CSV files: 
 
 top50.csv: the original csv file from [kaggle](https://www.kaggle.com/leonardopena/top50spotify2019)
 
