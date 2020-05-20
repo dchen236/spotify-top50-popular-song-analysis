@@ -16,9 +16,9 @@ The dataset can be found in data/top50_with_lyrics_bio.csv
     + [top50.csv:](#top50_with_lyrics_bio.csv:)
    * [Attributes](#Attributes:)
      
-- [Code Usage](#How to use the data_collection.py )
-  * [Install dependency](#Install dependency:)
-  * [Run script](#Run data_collection.py code)
+- [Code Usage](#How-to-use-the-data_collection.py )
+  * [Install dependency](#Install-dependency:)
+  * [Run script](#Run-data_collection.py code)
 
 - [Resources](#Resources)
 
