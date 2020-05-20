@@ -5,10 +5,14 @@ The dataset we will be using can be found at [data/top50_with_lyrics_bio.csv](ht
 
 We utlized the orginal [top-50.csv](https://www.kaggle.com/leonardopena/top50spotify2019) from kaggle and collected additional attributes such as lyrics of track and artist bio summary (not included in the original dataset).
 
+# Team Member
+- Danni Chen
+- Yufeng Zhang
 
 # Table of content
 
 - [STATS101A-Final-Project](#spotify-top50-popular-song-analysis)
+- [Team Memember](#team-member)
 - [Data Codebook ](#data-codebook)
   * [CSV files](#CSV-files)
    * [Attributes](#Attributes)
