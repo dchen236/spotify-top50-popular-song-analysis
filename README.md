@@ -12,12 +12,12 @@ The dataset can be found in data/top50_with_lyrics_bio.csv
 
 - [Data Codebook ](#data-codebook)
   * [CSV files](#CSV-files)
-    + [top50.csv:](#top50.csv:)
-    + [top50.csv:](#top50_with_lyrics_bio.csv:)
-   * [Attributes](#Attributes:)
+    + [top50.csv:](#top50.csv)
+    + [top50.csv:](#top50_with_lyrics_bio.csv)
+   * [Attributes](#Attributes)
      
 - [Code Usage](#How-to-use-the-data_collection.py )
-  * [Install dependency](#Install-dependency:)
+  * [Install dependency](#install-dependency:)
   * [Run script](#Run-data_collection.py code)
 
 - [Resources](#Resources)
