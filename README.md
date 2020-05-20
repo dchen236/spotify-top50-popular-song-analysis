@@ -11,7 +11,7 @@ The dataset can be found in data/top50_with_lyrics_bio.csv
 - [STATS101A-Final-Project](#spotify-top50-popular-song-analysis)
 
 - [Data Codebook ](#data-codebook)
-  * [CSV files](#CSV files)
+  * [CSV files](#CSV-files)
     + [top50.csv:](#top50.csv:)
     + [top50.csv:](#top50_with_lyrics_bio.csv:)
    * [Attributes](#Attributes:)
