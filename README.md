@@ -8,19 +8,34 @@ The dataset can be found in data/top50_with_lyrics_bio.csv
 
 # Table of content
 
+- [STATS101A-Final-Project](#spotify-top50-popular-song-analysis)
 
+- [Data Codebook ](#Data Codebook)
+  * [CSV files](#CSV files)
+    + [top50.csv:](#top50.csv:)
+    + [top50.csv:](#top50_with_lyrics_bio.csv:)
+   * [Attributes](#Attributes:)
+     
+- [Code Usage](#How to use the data_collection.py )
+  * [Install dependency](#Install dependency:)
+  * [Run script](#Run data_collection.py code)
+
+- [Resources](#Resources)
 
 # Data Codebook 
 
-#### CSV files: 
+### CSV files: 
 
-top50.csv: the original csv file from [kaggle](https://www.kaggle.com/leonardopena/top50spotify2019)
+#### top50.csv: 
+the original csv file from [kaggle](https://www.kaggle.com/leonardopena/top50spotify2019)
 
-top50_with_lyrics_bio.csv: original csv file concatenated with Track.Lyrics (lyrics of the track obtained from genius api) column and Artist.Bio column (summary of artist bio obtained from last.fm api)
+#### top50_with_lyrics_bio.csv: 
+original csv file concatenated with Track.Lyrics (lyrics of the track obtained from genius api) column and Artist.Bio column (summary of artist bio obtained from last.fm api)
 
 
 
-#### Attributes: there are 50 rows and 15 columns
+### Attributes: 
+there are 50 rows and 15 columns
 
 The first 13 columns are the same from the original Kaggle dataset , we copied the summary from of each attribute from the original page, you can get more detail from [here](https://www.kaggle.com/leonardopena/top50spotify2019). The last two column  (in bold font) are collected by ourselves. 
 
@@ -56,9 +71,9 @@ Popularity: The higher the value the more popular the song is.
 
 **Artist.Bio**: The bio summary of the artist (obtained from last.fm api)
 
-# How to use the daata_collection.py 
+# How to use the data_collection.py 
 
-## How to use data_collection.py 
+
 
 ### Install dependency:
 
