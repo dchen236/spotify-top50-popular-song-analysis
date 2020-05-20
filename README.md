@@ -1,43 +1,17 @@
 # spotify-top50-popular-song-analysis
 
+EXplanation of this project goes here
+
 This is the final project for stats101a spring20 from UCLA taught by professor Robert Gould and TA Xinzhou Ge
 The dataset can be found in data/top50_with_lyrics_bio.csv
 
 
-Add table of content here
+# Table of content
 
 
 
-### How to use data_collection.py 
+# Data Codebook 
 
-##### Install dependency:
-
-```
-pip instal pandas 
-pip install lyricsgenius
-pip install pylast
-```
-
-##### Run data_collection.py code
-
-The code utilize external library, yo
-
-To use this code: you need to replace the API tokens and other relevant info in the config.py file
- 1. To get the artist bio summary, we will use last.fm API, you need to [register a free account](https://www.last.fm/api/) (required)
-
- 2. To get lyrics of track, we will use lyrics [LyricsGenius api]( https://github.com/johnwmillr/LyricsGenius), to use the api, you need to [register a free account from geniu.com ]( https://genius.com/api-clients) (required)
-
- 3. Replace API_KEY,  API_SECRET, username and password from last.fm and token from genius in config.py with your own (required)
-
- 4. Replace the path of input spotify_top_50 csv file (optional)
-
- 5. Replace in the path of output file with lyrics and bio_summary (optional)
-
- 6. If you have installed the dependency and replaced your own tokens and api key, you can simply run the code with command python3 data_collection.py from terminal 
-
-    
-
-### Data dictionary / codebook
 #### CSV files: 
 
 top50.csv: the original csv file from [kaggle](https://www.kaggle.com/leonardopena/top50spotify2019)
@@ -82,7 +56,36 @@ Popularity: The higher the value the more popular the song is.
 
 **Artist.Bio**: The bio summary of the artist (obtained from last.fm api)
 
+# How to use the daata_collection.py 
 
+## How to use data_collection.py 
+
+### Install dependency:
+
+```
+pip instal pandas 
+pip install lyricsgenius
+pip install pylast
+```
+
+### Run data_collection.py code
+
+The code utilize external library, yo
+
+To use this code: you need to replace the API tokens and other relevant info in the config.py file
+ 1. To get the artist bio summary, we will use last.fm API, you need to [register a free account](https://www.last.fm/api/) (required)
+
+ 2. To get lyrics of track, we will use lyrics [LyricsGenius api]( https://github.com/johnwmillr/LyricsGenius), to use the api, you need to [register a free account from geniu.com ]( https://genius.com/api-clients) (required)
+
+ 3. Replace API_KEY,  API_SECRET, username and password from last.fm and token from genius in config.py with your own (required)
+
+ 4. Replace the path of input spotify_top_50 csv file (optional)
+
+ 5. Replace in the path of output file with lyrics and bio_summary (optional)
+
+ 6. If you have installed the dependency and replaced your own tokens and api key, you can simply run the code with command python3 data_collection.py from terminal 
+
+    
 
 # Resources
 
