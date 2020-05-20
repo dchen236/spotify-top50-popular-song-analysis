@@ -1,32 +1,29 @@
 # spotify-top50-popular-song-analysis
 
 This is the final project for stats101a spring20 from UCLA taught by professor Robert Gould and TA Xinzhou Ge
-The dataset we will be using can be found at [data/top50_with_lyrics_bio.csv](https://github.com/dchen236/spotify-top50-popular-song-analysis/blob/master/data/top50_with_lyrics_bio.csv). We utlized the orginal [top-50.csv](https://www.kaggle.com/leonardopena/top50spotify2019) from kaggle and collected additional attributes such as lyrics of track and artist bio summary (not included in the original dataset).
+The dataset we will be using can be found at [data/top50_with_lyrics_bio.csv](https://github.com/dchen236/spotify-top50-popular-song-analysis/blob/master/data/top50_with_lyrics_bio.csv). 
+
+We utlized the orginal [top-50.csv](https://www.kaggle.com/leonardopena/top50spotify2019) from kaggle and collected additional attributes such as lyrics of track and artist bio summary (not included in the original dataset).
 
 
 # Table of content
 
 - [STATS101A-Final-Project](#spotify-top50-popular-song-analysis)
-
 - [Data Codebook ](#data-codebook)
   * [CSV files](#CSV-files)
-   * [Attributes](#Attributes)
-     
+  * [Attributes](#Attributes) 
 - [Code Usage](#Code-Usage)
   * [Install dependency](#install-dependency)
   * [Run script](#Run-script)
-
 - [Resources](#Resources)
 
 # Data Codebook 
 
 ### CSV files
 
-top50.csv: 
-the original csv file from [Kaggle](https://www.kaggle.com/leonardopena/top50spotify2019)
+- top50.csv: the original csv file from [Kaggle](https://www.kaggle.com/leonardopena/top50spotify2019)
 
-top50_with_lyrics_bio.csv: 
-original csv file concatenated with Track.Lyrics (lyrics of the track obtained from genius API) column and Artist.Bio column (summary of artist bio obtained from last.fm API)
+- top50_with_lyrics_bio.csv: original csv file concatenated with Track.Lyrics (lyrics of the track obtained from genius API) column and Artist.Bio column (summary of artist bio obtained from last.fm API)
 
 
 ### Attributes
