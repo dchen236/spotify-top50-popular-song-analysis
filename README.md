@@ -1,6 +1,6 @@
 # spotify-top50-popular-song-analysis
 
-This is the final project for stats101a spring20 from UCLA taught by professor Robert Gould and TA Xinzhou Ge
+This is the final project for stats101a spring20 from UCLA taught by professor [Robert Gould](http://www.stat.ucla.edu/~rgould/Home/About_Me.html) and TA Xinzhou Ge
 The dataset we will be using can be found at [data/top50_with_lyrics_bio.csv](https://github.com/dchen236/spotify-top50-popular-song-analysis/blob/master/data/top50_with_lyrics_bio.csv). 
 
 We utlized the orginal [top-50.csv](https://www.kaggle.com/leonardopena/top50spotify2019) from kaggle and collected additional attributes such as lyrics of track and artist bio summary (not included in the original dataset).
@@ -11,7 +11,7 @@ We utlized the orginal [top-50.csv](https://www.kaggle.com/leonardopena/top50spo
 - [STATS101A-Final-Project](#spotify-top50-popular-song-analysis)
 - [Data Codebook ](#data-codebook)
   * [CSV files](#CSV-files)
-  * [Attributes](#Attributes) 
+   * [Attributes](#Attributes)
 - [Code Usage](#Code-Usage)
   * [Install dependency](#install-dependency)
   * [Run script](#Run-script)
@@ -27,7 +27,7 @@ We utlized the orginal [top-50.csv](https://www.kaggle.com/leonardopena/top50spo
 
 
 ### Attributes
-there are 50 rows and 15 columns
+There are 50 rows and 15 columns
 
 The first 13 columns are the same as the original Kaggle dataset , we copied the summary of each attribute from the original page, you can get more details from [here](https://www.kaggle.com/leonardopena/top50spotify2019). The last two columns (in bold font) are collected by ourselves. 
 
