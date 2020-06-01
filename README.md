@@ -30,22 +30,22 @@ We adapted the [dataset from kaggle)[https://www.kaggle.com/leonardopena/top-spo
 ### Attributes
 There are 16 attribuets 
 
-title: title of the song
-artist: artist name
-top genre: genre of the song
-year: the year when the songs is at top50 list
-bpm: beat per minutes 
-nrgy: energy of the song, higher means more energetic
-dnce: dancibility, higher means easier to dance to the song
-dB: loundness of the song, the higher the lounder
-live: liveness of the song, higher means the song is likely to be a live recording
-val: valence of the song, higer means positive mood for the song. 
-dur: duration of the songs in seconds
-acous: acousticness of the song, higher value means the song is more acoustic 
-spch: speechness of the song, the higher the value, the more spoken word the song contains
-pop: popularity of the song
-artist.gender: gender of the artist
-lyrics.ease.score: lyrics reading ease score (obtained from [textstat](https://pypi.org/project/textstat/) flesch_reading_ease), the original dataset doesn't have song lyrics, we used genius api to collect the lyrics.(the code is available at data_collection.py) 
+- title: title of the song
+- artist: artist name
+- top genre: genre of the song
+- year: the year when the songs is at top50 list
+- bpm: beat per minutes 
+- nrgy: energy of the song, higher means more energetic
+- dnce: dancibility, higher means easier to dance to the song
+- dB: loundness of the song, the higher the lounder
+- live: liveness of the song, higher means the song is likely to be a live recording
+- val: valence of the song, higer means positive mood for the song. 
+- dur: duration of the songs in seconds
+- acous: acousticness of the song, higher value means the song is more acoustic 
+- spch: speechness of the song, the higher the value, the more spoken word the song contains
+- pop: popularity of the song
+- artist.gender: gender of the artist
+- lyrics.ease.score: lyrics reading ease score (obtained from [textstat](https://pypi.org/project/textstat/) flesch_reading_ease), the original dataset doesn't have song lyrics, we used genius api to collect the lyrics.(the code is available at data_collection.py) 
 
 Attribuets bpm, nrgy, dncb, dB, live, val, dur, acous, spch and pop is defined by Spotify, details are available at [Spotify for Developers](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/) 
 
