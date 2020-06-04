@@ -39,10 +39,11 @@ There are 16 attribuets
 - dnce: dancibility, higher means easier to dance to the song
 - dB: loundness of the song, the higher the lounder
 - live: liveness of the song, higher means the song is likely to be a live recording
-- val: valence of the song, higer means positive mood for the song. 
+- val: valence of the song, higer means positive mood such as happy, cheeful, lower means negative mood such as sad, angry and depressed. 
+
 - dur: duration of the songs in seconds
-- acous: acousticness of the song, higher value means the song is more acoustic 
-- spch: speechness of the song, the higher the value, the more spoken word the song contains
+- acous: acousticness of the song, 0-1 indicates how confidence Spotify thinks this songs is acoustic, higher value means the song is more likely to be acoustic.
+- spch: speechness of the song, the higher the value, the more spoken word the song contains. 	Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value.
 - pop: popularity of the song
 - artist.gender: gender of the artist
 - lyrics.ease.score: lyrics reading ease score (obtained from [textstat](https://pypi.org/project/textstat/) flesch_reading_ease), the original dataset doesn't have song lyrics, we used genius api to collect the lyrics.(the code is available at data_collection.py) 
